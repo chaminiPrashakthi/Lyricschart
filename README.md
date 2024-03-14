@@ -3,7 +3,7 @@
 ## Features
 
 - New users can register for the application using a valid email address.
-- Users can log in to the system with their existing email address and password.
+- Users can log in to the system with their existing email address and password. (for the authentication, used browser cookie to store the jwt token of the user)
 - When a user logs into the system, they will be navigated to the Artists page, which displays top-charting artists based on the user's country.
 - Clicking on an artist's name will display the last three released albums of the artist.
 - Clicking on an album will display the lyrics for songs included in that album.
@@ -29,7 +29,7 @@
 ## Getting Started
 
 1. Clone the repository:
-git clone https://github.com/chaminiPrashakthi/Musichart
+git clone https://github.com/chaminiPrashakthi/Lyricschart.git
 
 2. Build and run the application using npm:
 
