@@ -1,0 +1,27 @@
+/* App.css */
+
+  
+  #cardsStyle {
+    /* background: #48bd62; */
+    width: 19.5rem;
+    margin: 0.5rem;
+    padding: 1rem;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    border-color: #555;
+    transition: transform 0.3s ease-in-out;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
+    .CardBody {
+        width: 100%; /* Ensure the CardBody takes up the full width */
+      }
+    .d-flex {
+      /* Customize the layout of the content within the card */
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  
