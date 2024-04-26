@@ -1,4 +1,4 @@
-# Conpago Full-stack Coding Test:
+# MERN STACK APPLICATION:
 
 ## Features
 
